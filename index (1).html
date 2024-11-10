@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+ <!-- Header -->
+ <header>
+ <h1>Judag Services</h1>
+ <nav>
+ <a href="#laundry">Laundry</a>
+ <a href="#cereal">Foods</a>
+ <a href="#contact">Contact</a>
+ <a href="#login">Account</a>
+ <a href="cart.html">Cart</a>
+ </nav>
+ </header>
+
+ <!-- Laundry Section -->
+ <section id="laundry">
+ <h2>Laundry Services</h2>
+ <div class="services">
+ <div class="service-item" id="Wash">
+ <h3>Wash &amp; Fold</h3>
+ <p>High-quality wash &amp; fold services.</p>
+ </div>
+ <div class="service-item" id="dry">
+ <h3>Dry Cleaning</h3>
+ <p>Professional dry cleaning for your clothes.</p>
+ </div>
+ <div class="service-item" id="iron">
+ <h3>Ironing</h3>
+ <p>Get your clothes ironed to perfection.</p>
+ </div>
+ </div>
+ </section>
+<!-- Cereal Foods Section -->
+ <section id="cereal">
+ <h2>Foods</h2>
+ <div class="products">
+ <div class="product-item" id="tom">
+ <h3>Healthy Tom-Brown</h3>
+ <p>Price: $5.99</p>
+ </div>
+ <div class="product-item" id="shito">
+ <h3>tasty Shito</h3>
+ <p>Price: $6.99</p>
+ </div>
+ </div>
+ </section>
+ <!-- specials section-->
+ <section id="special">
+     <h2>Special Services</h2>
+     <div class="service" id="pork">
+         <h3>fried yam &amp; pork</h3>
+     </div>
+ </section>
+<!-- Contact Section -->
+ <section id="contact">
+ <h2>Contact Us</h2>
+ <p>Email: info@Judag.com</p>
+ <p>Phone: (054) 475-1599</p>
+ </section>
+
+ <!-- Account Section -->
+ <section id="account">
+ <div class="overlay" id="loginModal">
+ <div class="modal">
+ <span class="close" onclick="closeModal()">&#10006;</span>
+ <h2>Login</h2>
+ <form>
+ <label for="username">Username:</label>
+ <input type="text" id="username" name="username" required>
+
+ <label for="password">Password:</label>
+ <input type="password" id="password" name="password" required>
+
+ <button type="submit" >Sign In</button>
+ </form>
+ </div>
+</div>
+<button onclick="openModal()" id="login">Login</button>
+ </section>
+
+ <!-- Footer -->
+ <footer>
+ <p>© 2024 Judag. All rights reserved.</p>
+ </footer>
+ <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+
+ body {
+ font-family: Arial, sans-serif;
+ background-color: #f4f4f4;
+ }
+ header {
+ background-color: #333;
+ background-image: url(https://assets.onecompiler.app/42xb6nx47/42xjbusq5/PSX_20241109_085453.jpg);
+ color: white;
+ background-size: cover;
+ padding: 10px 0;
+ text-align: center;
+ height:150px;
+ }
+ header h1 {
+ margin: 50px;
+ }
+ nav a {
+ color: white;
+ margin: 0 15px;
+ text-decoration: none;
+ position: relative;
+ top: 10px;
+ border: 1px solid;
+ border-radius: 5px;
+ }
+ nav{
+   background-color: brown;
+   height: 30px;
+ }
+ section {
+ padding: 20px;
+ text-align: center;
+ }
+ .services, .products , .service{
+ display: flex;
+ justify-content: space-around;
+ }
+ .service-item, .product-item{
+ background-color: white;
+
+ border: 1px solid #ddd;
+ padding: 20px;
+ width: 30%;
+ }
+ .service{
+ background-color: white;
+ border: 1px solid #ddd;
+ padding: 20px;
+ width:90%;
+ height: 100px;
+ }
+ #Wash{
+   background-image: url('https://assets.onecompiler.app/42xb6nx47/42xjbusq5/PSX_20241109_093322.jpg');
+ 
+   background-size: cover;
+ }
+ #dry{
+   background-image: url('https://assets.onecompiler.app/42xb6nx47/42xjbusq5/PSX_20241109_100453.jpg');
+   background-size: cover; 
+ }
+ #iron{
+   background-image: url('https://assets.onecompiler.app/42xb6nx47/42xjbusq5/PSX_20241109_101639.jpg');
+   background-size: cover;
+ }
+ #tom{
+   background-image: url('https://assets.onecompiler.app/42xb6nx47/42xjbusq5/PSX_20241110_135410.jpg');
+   background-size: cover;
+ }
+ #shito{
+   background-image: url('https://assets.onecompiler.app/42xb6nx47/42xjbusq5/PSX_20241110_134628.jpg');
+   background-size: cover;
+ }
+ #pork{
+   background-image: url('https://assets.onecompiler.app/42xb6nx47/42xjbusq5/PSX_20241110_140412.jpg');
+   background-size:cover;
+   height: 150px;
+ }
+ .overlay {
+ display: none; /* Hidden by default */
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+ justify-content: center;
+ align-items: center;
+ z-index: 1000; /* Ensure it appears above other elements */
+}
+/* Modal box */
+.modal {
+ background-color: white;
+ padding: 20px;
+ border-radius: 8px;
+ width: 300px;
+ position: relative;
+ text-align: center;
+}
+/* Close button */
+.close {
+ position: absolute;
+ top: 10px;
+ right: 10px;
+ font-size: 20px;
+ cursor: pointer;
+}
+
+
+
+ 
